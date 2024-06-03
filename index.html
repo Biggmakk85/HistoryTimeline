@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human History Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Human History Timeline</h1>
+    </header>
+    <nav>
+        <select id="dropdown" onchange="showCategory(this.value)">
+            <option value="">Select a Period</option>
+            <option value="ancient">Ancient History</option>
+            <option value="medieval">Medieval History</option>
+            <option value="modern">Modern History</option>
+        </select>
+    </nav>
+    <main id="content">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
